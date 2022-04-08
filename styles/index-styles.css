@@ -1,0 +1,394 @@
+.slider {
+    width: 100%;
+    height: 500px;
+    background-color: var(--amarillo);
+}
+
+.slider img {
+    width: 100%;
+}
+
+.banner-collection {
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-dots {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-dots>a {
+    margin: 10px;
+}
+
+.banner-arrows {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.contador,
+.programa,
+.comite-local,
+.organizadores,
+.patrocinadores {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contador-time {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.contador-time>div {
+    width: 160px;
+    height: 200px;
+    border: 5px solid var(--rosa);
+    margin: 10px;
+    font-family: Futura Std;
+    color: var(--rosa);
+    font-weight: bold;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: nowrap;
+}
+
+.time-title {
+    background-color: var(--rosa);
+    font-family: Futura Std;
+    color: white;
+    font-size: 16px;
+    top: 0px;
+    padding: 5px;
+    position: absolute;
+    font-weight: lighter;
+    width: 160px;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple {
+    font-family: Futura Std;
+    font-size: 30px;
+    color: var(--gris);
+    margin-top: 20px;
+}
+
+.back-img-cont {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+
+.back-img-cont img {
+    height: 220px;
+}
+
+.about-container {
+    min-height: 390px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: var(--verdeLight);
+    width: 100%;
+}
+
+.about {
+    font-family: Futura Std;
+    padding: 40px;
+    background-color: var(--verdeLight);
+    color: white;
+    width: 70%;
+}
+
+.about-image {
+    background-color: #f9f9f9;
+    display: flex;
+    min-width: 290px;
+    width: 30%;
+}
+
+.about-image img {
+    width: 100%;
+    align-self: flex-end;
+}
+
+.about>p {
+    margin-top: 40px;
+}
+
+.about .title1 {
+    margin-top: 10px;
+}
+
+.about {
+    margin: 5px;
+}
+
+.about hr {
+    background-color: white;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.contador hr {
+    background-color: #206bc4;
+}
+
+.programa hr {
+    background-color: #20c4af;
+    position: relative;
+}
+
+.comite-local hr {
+    background-color: #fff063;
+}
+
+.organizadores hr {
+    background-color: #ff4b55;
+    margin-bottom: 30px;
+}
+
+#organizadores-line2 {
+    background-color: #ed325c;
+}
+
+.programa-title img {
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.programa-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.programa-title {
+    align-items: center;
+}
+
+.programa-fechas {
+    display: flex;
+    flex-direction: row;
+    font-family: Futura Std;
+}
+
+.programa-fechas>div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.fecha-1,
+.fecha-3 {
+    background-color: #f3f3f3;
+    color: var(--rosa);
+}
+
+.fecha-1 {
+    border-radius: 10px 0 0 10px;
+}
+
+.fecha-main {
+    background-color: var(--verde);
+    color: white;
+}
+
+.fecha-3 {
+    border-radius: 0 10px 10px 0;
+}
+
+.fecha-num {
+    font-size: 24px;
+}
+
+.comite-local-names {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comite-local-names>div {
+    text-align: center;
+    font-family: Futura Std;
+    font-size: 24px;
+}
+
+.comite-local-person {
+    margin-bottom: 24px;
+}
+
+.comite-local-person>div {
+    margin-bottom: 8px;
+}
+
+.c-l-nombre {
+    font-weight: bold;
+}
+
+.comite-local-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.comite-local-logos>img {
+    height: 140px;
+    margin: 20px;
+}
+
+.congress-organization {
+    background-color: #f3f3f3;
+}
+
+.organizadores {
+    padding-bottom: 40px;
+    padding: 30px 0 0 0;
+}
+
+.organizadores-display {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.organizador-card {
+    width: calc(100% / 5);
+    height: 250px;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.organizador-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.45s;
+    transform-style: preserve-3d;
+}
+
+.organizador-card-front,
+.organizador-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.organizador-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.organizador-card:hover .organizador-card-inner {
+    transform: rotateY(180deg);
+}
+
+.organizador-card-back p {
+    font-size: 15px;
+}
+
+.organizador-card img {
+    width: 100%;
+}
+
+#org1 .organizador-card-back,
+#org8 .organizador-card-back {
+    background-color: #ffc227;
+}
+
+#org2 .organizador-card-back,
+#org14 .organizador-card-back {
+    background-color: #ff8f2e;
+}
+
+#org3 .organizador-card-back,
+#org10 .organizador-card-back {
+    background-color: #ed325c;
+}
+
+#org4 .organizador-card-back,
+#org12 .organizador-card-back {
+    background-color: #a0e8c4;
+}
+
+#org5 .organizador-card-back,
+#org7 .organizador-card-back {
+    background-color: #f1719a;
+}
+
+#org8 .organizador-card-back {
+    background-color: #ffc227;
+}
+
+#org9 .organizador-card-back,
+#org11 .organizador-card-back {
+    background-color: #01b992;
+}
+
+#org13 .organizador-card-back,
+#org6 .organizador-card-back {
+    background-color: #c4de3a;
+}

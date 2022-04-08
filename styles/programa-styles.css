@@ -1,0 +1,134 @@
+.section-container{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.programa{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.programa hr {
+    background-color: #20C4AF;
+    position: relative;
+}
+
+.programa-title img {
+    height: 40px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.programa-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.programa-title {
+    align-items: center;
+}
+
+.programa-fechas {
+    display: flex;
+    flex-direction: row;
+    font-family: Futura Std;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.programa-fechas>div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.programa-fechas > div {
+    background-color: #F3F3F3;
+    color: var(--rosa);
+}
+
+.fecha-1 {
+    border-radius: 10px 0 0 10px;
+}
+
+.programa-fechas .fecha-main {
+    background-color: var(--verde);
+    color: white;
+}
+
+.fecha-4 {
+    border-radius: 0 10px 10px 0;
+}
+
+.fecha-num {
+    font-size: 24px;
+}
+
+.programa-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+}
+
+#programa-divisor{
+    position: relative;
+    left: calc(50% - 4px/2);
+    width: 4px;
+    height: 100%;
+    margin: 0 0 0 0;
+}
+
+
+
+.evento-hora{
+    width: fit-content;
+    font-family: 'DESIGNER';
+    font-style: normal;
+    color: var(--rosa);
+    font-size: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.programa-container-columns{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.programa-column-1, .programa-column-2{
+    background-color: red;
+    margin: 0 30px 0 30px;
+}
+
+.programa-column-1{
+    width: calc(50% + 4px);
+}
+
+.programa-column-2{
+    width: 50%;
+}
+
+.evento-circle{
+    position: absolute;
+    border-radius: 100%;
+    background-color: var(--rosa);
+    width: 25px;
+    height: 25px;
+    left: calc(50% - (25px/2));
+}

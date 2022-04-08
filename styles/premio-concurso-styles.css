@@ -1,0 +1,57 @@
+.premio-gmb, .concurso{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.premio-gmb hr, .concurso hr{
+    background-color: #20c4af;
+}
+
+.section-container{
+    margin-top: 20px;
+}
+
+.info-text ol>li{
+    margin-left: 32px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+}
+
+#premioGMB-button{
+    color: white;
+}
+
+#concurso-button{
+    color: white;
+    background-color: var(--rosa);
+}
+
+.large-button{
+    margin: 40px 0 0 0;
+}
+
+
+
+.info-text ul{
+    margin-left: 15px;
+    font-family: Futura Std;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.premio-gmb .info-text img{
+    float: right;
+    margin: 0 0 0 40px;
+    height: 500px;
+}
+.concurso .info-text img{
+    float: right;
+    margin: 0 0 0 40px;
+    height: 500px;
+}
