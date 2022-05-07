@@ -1,0 +1,114 @@
+.instruccion{
+    width: 100%;
+    text-align: center;
+    font-family: Futura Std;
+    font-size: 20px;
+}
+
+form > label{
+    font-family: Futura Std;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 45%;
+}
+
+.section-form label{
+    font-family: Futura Std;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 45%;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+select, input[type="text"], input[type="tel"], input[type="email"], input[type="password"]{
+    height: 45px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    border: none;
+    padding: 4px 8px 4px 8px;
+    font-family: Futura Std;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+
+form > input[type="button"]{
+    font-family: Futura Std;
+    font-size: 16px;
+    background-color: var(--verde);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-form > input[type="button"]{
+    font-family: Futura Std;
+    font-size: 16px;
+    background-color: var(--verde);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type="button"]:hover{
+    font-family: Futura Std;
+    font-size: 16px;
+    background-color: var(--rosa);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.section-form > input[type="button"]:hover{
+    font-family: Futura Std;
+    font-size: 16px;
+    background-color: var(--rosa);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form  a{
+    font-family: Futura Std;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.section-form a{
+    font-family: Futura Std;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.title-section-form{
+    font-family: Futura Std;
+    font-size: 24px;
+    margin: 30px 0 10px 0;
+    width: 100%;
+}
+
+.section-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.form-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-column-right{
+    margin-left: 30px;
+}
+.form-column-left{
+    margin-right: 30px;
+}

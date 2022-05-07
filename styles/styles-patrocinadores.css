@@ -29,49 +29,7 @@ hr {
 }
 
 footer {
-    background-color: #325B6A;
-    color: #f3f3f3;
-    font-family: Futura Std;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 40px 30px 40px;
-    justify-content: center;
-    height: 250px;
-    bottom: 0;
-    left: 0;
     width: 100%;
     position: absolute;
     bottom: -250px;
-}
-
-footer p {
-    font-size: inherit;
-    text-align: center;
-}
-
-.footer-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 24px;
-}
-
-.title5 {
-    font-size: 14px;
-    color: var(--verde);
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.footer-top>img {
-    height: 100px;
-}
-
-li {
-    list-style: disc inside none;
-    display: list-item;
-    margin-left: 10px;
-    margin: 8px;
 }

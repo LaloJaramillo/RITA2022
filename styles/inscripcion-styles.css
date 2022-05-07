@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inscripcion{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inscripcion hr{
+    background-color: #20c4af;
+}
+
+.container{
+    margin: 0 85px 0 85px;
+}
+
+form{
+    margin: 20px 0 20px 0;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: -250px;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="password"]{
+    width: 45%;
+}
+
+form > input[type="button"]{
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+}
+
+.section-form > input[type="button"]{
+    padding: 10px 40px 10px 40px;
+    margin: 10px;
+}

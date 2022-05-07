@@ -81,54 +81,119 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin-top: 20px;
     align-items: center;
+    margin: 30px 0 30px 0;
 }
 
 #programa-divisor{
     position: relative;
-    left: calc(50% - 4px/2);
+    left: calc(50% + 1px);
     width: 4px;
     height: 100%;
     margin: 0 0 0 0;
+    z-index: 1;
+    background: linear-gradient(180deg, #00BBA3 0%, #00BBA3 83.85%, rgba(0, 187, 163, 0) 100%);
+
 }
 
-
-
-.evento-hora{
-    width: fit-content;
-    font-family: 'DESIGNER';
+.evento-hora-main{
+    font-family: 'Futura Std';
     font-style: normal;
     color: var(--rosa);
     font-size: 48px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    margin: 10px 0 10px 0;
+    width: fit-content;
+}
+
+.programa-column-1 .evento-hora-main{
+    align-self: flex-end;
+    text-align: right;
 }
 
 .programa-container-columns{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px 0 20px;
 }
 
 .programa-column-1, .programa-column-2{
-    background-color: red;
-    margin: 0 30px 0 30px;
-}
+    position: relative;
+    width: 50%;
+    padding: 0 20px 0 20px;
+    flex-wrap: wrap;
+} 
 
 .programa-column-1{
-    width: calc(50% + 4px);
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
 }
 
 .programa-column-2{
-    width: 50%;
+    left: 50%;top: 0;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
 }
 
-.evento-circle{
+.hora{
+    display: flex;
+    flex-direction: column;
+}
+
+.programa-column-1 .evento-circle{
     position: absolute;
     border-radius: 100%;
     background-color: var(--rosa);
-    width: 25px;
-    height: 25px;
-    left: calc(50% - (25px/2));
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+	left: calc(100% + 19px/2);
+    top: -2px;
+    margin: 0;
+}
+
+.programa-column-2 .evento-circle{
+    position: absolute;
+    border-radius: 100%;
+    background-color: var(--rosa);
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+	top: -2px;
+	right: calc(100% + 12px/2);
+    margin: 0;
+}
+
+
+.evento-container{
+    margin: 10px 0 10px 0;
+}
+.evento-title{
+    font-weight:bolder;
+    font-family: Futura Std;
+}
+
+.event-hour{
+    color: var(--verde);
+    position: relative;
+    font-family: Futura Std;
+}
+.evento-description{
+    font-weight: lighter;
+}
+.evento{
+    margin: 10px 0 10px 0;
+}
+
+.mini-eventos{
+    font-size: 13px;
+    color: #92989B;
 }

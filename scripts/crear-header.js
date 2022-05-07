@@ -48,7 +48,7 @@ class Header extends HTMLElement{
                 </a>
 
                 <div class="op-premios"> 
-                    <button id="menu-option-btn"> <a href="index.html">PREMIOS</a></button>
+                    <button id="menu-option-btn"> <a href="">PREMIOS</a></button>
 
                     
                     <div class="inner-menu-options">

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nueva-cuenta{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.nueva-cuenta hr{
+    background-color: #20c4af;
+}
+
+.container{
+    margin: 0 85px 0 85px;
+}
+
+form{
+    margin: 0 0 40px 0;
+}
+
+select, input[type="text"], input[type="tel"], input[type="email"], input[type="password"]{
+    width: 90%;
+}
+
+
+form > input[type="button"]{
+    margin-top: 40px;
+    padding: 10px 60px 10px 60px;
+}
+
+
+
