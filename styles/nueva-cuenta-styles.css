@@ -36,5 +36,34 @@ form > input[type="button"]{
     padding: 10px 60px 10px 60px;
 }
 
+.section-form-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-form-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 20px 0;
+}
+.section-form-2 label{
+    font-family: Montserrat;
+}
+
+.form-radio-option-1{
+    margin-right: 40px;
+}
+
+.form-radio-option-2{
+    margin-left: 40px;
+}
+
+.radio-form-container-col{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 20px 0;
+}
+
 
 

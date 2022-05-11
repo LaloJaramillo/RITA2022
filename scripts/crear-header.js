@@ -37,8 +37,8 @@ class Header extends HTMLElement{
                     <div class="inner-menu-options">
                         <div class="inner-menu-arrow"></div>
                         <a href="acercaDe.html">Acerca De</a>
-                        <a href="#comite-internacional">Comité Directivo Internacional</a>
-                        <a href="#comite-local">Comité Local Organizador</a>
+                        <a href="index.html#comite-internacional">Comité Directivo Internacional</a>
+                        <a href="index.html#comite-local">Comité Local Organizador</a>
                         <a href="patrocinadores.html">Patrocinadores</a>
                     </div>
                 </div>

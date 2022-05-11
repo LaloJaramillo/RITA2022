@@ -26,17 +26,17 @@ body {
 }
 
 .title1 {
-    font-family: Futura Std;
+    font-family: Montserrat;
     font-size: 36px;
 }
 
 .title2 {
-    font-family: Futura Std;
+    font-family: Montserrat;
     font-size: 24px;
 }
 
 p {
-    font-family: Futura Std;
+    font-family: Montserrat;
     line-height: 1.6;
     letter-spacing: 1px;
 }
@@ -53,7 +53,7 @@ button {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: Futura Std;
+    font-family: Montserrat;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -72,7 +72,7 @@ header {
     display: flex;
     height: 160px;
     align-items: center;
-    font-family: Futura Std;
+    font-family: Montserrat;
     font-size: 16px;
     color: var(--gris);
     background-color: white;
@@ -270,7 +270,7 @@ hr{
 footer {
     background-color: #325B6A;
     color: #f3f3f3;
-    font-family: Futura Std;
+    font-family: Montserrat;
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -320,7 +320,7 @@ footer li {
     text-align: justify;
     text-justify: inter-word;
     font-weight: none;
-    font-family: Futura Std;
+    font-family: Montserrat;
 }
 
 .title4{
