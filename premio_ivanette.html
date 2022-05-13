@@ -1,107 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main-styles.css" />
-    <link rel="stylesheet" href="styles/info-styles.css" />
+    <link rel="stylesheet" href="styles/index-styles.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preload" href="fonts/FuturaStd-Book.woff2" as="font" type="font/woff2" crossorigin>
 
     <script src="scripts/crear-header.js"></script>
     <script src="scripts/crear-footer.js"></script>
+    <script src="scripts/clock-script.js"></script>
+    
 
-    <title>Premio Ivanette</title>
+    <title>XXXII RITA México</title>
 </head>
+
 <body>
-    <crear-header></crear-header>
-    <div class="section-container">
-        <div class="premio-gmb">
-            <div class="section-title">
-                <img class="title-texture" src="img/title-textures/title-texture2_1.png" alt="" />
-                <span class="title1"> PREMIO IVANETTE </span>
-                <img class="title-texture" src="img/title-textures/title-texture2_2.png" alt="" />
+    <div class="container">
+        
+        <crear-header></crear-header>
+
+
+        <div class="slider"><img src="img/slider/Group 62.png" alt=""></div>
+
+        <!--CONTADOR-->
+        <div class="section-container" id="contador-container">
+            <div class="contador">
+                <div class="section-title">
+                    <img class="title-texture" src="img/title-textures/title-texture-1_1.png" alt="" />
+                    <span class="title1"> FALTAN </span>
+                    <img class="title-texture" src="img/title-textures/title-texture-1_2.png" alt="" />
+                </div>
+                <hr class="title-line">
+                <div class="contador-time">
+                    <div class="contador-days">
+                        <div class="time-title">DÍAS</div>
+                        <div id="days"></div>
+                    </div>
+                    <div class="contador-hours">
+                        <div class="time-title">HORAS</div>
+                        <div id="hours"></div>
+                    </div>
+                    <div class="contador-minutes">
+                        <div class="time-title">MINUTOS</div>
+                        <div id="minutes"></div>
+                    </div>
+                    <div class="contador-seconds">
+                        <div class="time-title">SEGUNDOS</div>
+                        <div id="seconds"></div>
+                    </div>
+                </div>
+
+                <p class="simple">PARA EL CONGRESO</p>
+
+                <div class="back-img-cont">
+                    <img src="img/texture1.png" alt="Textura 1" />
+                    <img src="img/texture1_2.png" alt="Textura 1" />
+                </div>
             </div>
-            <hr class="title-line">
-
-            <div class="info-text">
-                <img src="https://m.media-amazon.com/images/I/41TuJZgCDhL.jpg" alt="">
-
-                <p>El Premio George M. Baer al Investigador Latinoamericano se otorga a un investigador de un país latinoamericano 
-                    por su trabajo sobresaliente en el campo de la investigación de la rabia. Lleva el nombre del Dr. George Martin Baer, 
-                    uno de los miembros fundadores de la Conferencia sobre la Rabia en las Américas (RITA). Fue un eminente virólogo, 
-                    veterinario y científico de la salud pública, con un gran afecto por el mundo en desarrollo. El Dr. Baer ayudó a sentar
-                    las bases de los programas de salud pública contra la rabia en México, esfuerzo que continuó a lo largo de su vida 
-                    profesional. En 1969, llegó a ser jefe del Laboratorio de Rabia del CDC de los EUA. Con su equipo de investigadores, 
-                    desarrolló un método para la inmunización de la vida silvestre, por lo que se le reconoce como el «Padre de la vacuna 
-                    oral contra la rabia». Su considerable experiencia lo convirtió en uno de los principales expertos internacionales en 
-                    este campo. De sus más de 100 publicaciones, su libro de 1991, La Historia Natural de la Rabia, sigue siendo una 
-                    referencia definitiva en el campo. Después de retirarse del CDC, fundó un laboratorio de diagnóstico en la Ciudad de 
-                    México y siguió siendo miembro del Comité Directivo Internacional de RITA.
-                </p>
-                
-                <p>
-                    Por sus múltiples contribuciones, entre las que destaca la transferencia de tecnología relevante al mundo en desarrollo, 
-                    el Comité Directivo Internacional de RITA nombró el premio anual al mejor trabajo de un investigador latinoamericano en su honor.
-                </p>
-                
-                <p>
-                    En 2022, el ganador del premio será reconocido por su logro con la oportunidad de presentar su trabajo en una sesión 
-                    especial de la conferencia XXXIII RITA 2022 MEXICO.
-                </p>
-
-                <p class="title4">Criterios de adjudicación</p>
-
-                <ul>
-                    <li>El solicitante debe ser ciudadano y residente de un país latinoamericano y trabajar en una agencia gubernamental (a nivel nacional o local), o ser un profesional que trabaje en una universidad o institución de investigación, o ser un estudiante que esté finalizando su ciclo de estudios (licenciatura, maestría o doctorado).</li>
-                    <li>El solicitante debe ser el primer autor y el que más haya contribuido al trabajo.</li>
-                    <li>El solicitante debe ser un nuevo investigador en el campo, con 10 años o menos de experiencia relevante en la rabia.</li>
-                    <li>El solicitante no debe haber recibido el premio previamente.</li>
-                    <li>El solicitante debe declarar si el grupo de investigación ha recibido apoyo técnico y/o financiero de instituciones/agencias internacionales</li>
-                    <li>El tema de investigación debe ser novedoso para el campo de la rabia o una aplicación novedosa de la tecnología de investigación recibida de agencias externas que colaboran en el estudio.</li>
-                </ul>
-
-                <p class="title4">El ganador del premio es elegido por el Comité Directivo Internacional de RITA. Los siguientes elementos se toman en consideración al seleccionar el ganador:</p>
-
-                <ul>
-                    <li>La naturaleza innovadora del trabajo descrito.</li>
-                    <li>La descripción clara y lógica de la investigación.</li>
-                    <li>La importancia del trabajo para el país del investigador y la región.</li>
-                </ul>
-
-                <p class="title4">¿Cómo aplicar?</p>
-
-                <ul>
-                    <li>
-                        El paquete de solicitud consta de tres partes:
-                        <ol>
-                            <li>Formulario de información de antecedentes.</li>
-                            <li>Resumen de la investigación.</li>
-                            <li>Curriculum vitae (CV)</li>
-                        </ol>
-                    </li>
-                    
-                    <li>Lea todas las instrucciones cuidadosamente. No se considerarán las solicitudes incompletas.</li>
-                    <li>La solicitud se puede llenar en inglés, español, francés o portugués. Sin embargo, se deben proporcionar traducciones al inglés para el Resumen de Investigación y el CV. El ganador del premio puede dar su presentación oral en español, portugués, francés o inglés.</li>
-                    <li>El solicitante debe enviar el paquete de solicitud por correo electrónico directamente al Comité Directivo Internacional de RITA.</li>
-                    <li>Guarde el Paquete de solicitud completado como un archivo de MS Word utilizando la siguiente convención para nombrarlo: “GB Award 2022 – APELLIDO(S), PRIMER NOMBRE”</li>
-                    <li>Envíe por correo electrónico su paquete de solicitud completo a:  <a href="mailto:GBaerAward@rabiesintheamericas.org">GBaerAward@rabiesintheamericas.org</a> utilizando la línea de asunto “GB Award 2022 – APELLIDO(S), PRIMER NOMBRE”.</li>
-                </ul>
-
-                <br><br>
-                <p>Las solicitudes deben recibirse antes del 1 de septiembre de 2022, 11:59 hora del Pacífico (GMT-7) para ser consideradas para XXXIII RITA 2022 MEXICO.
-                </p>
-
-                <p>Recibirá una confirmación de que se recibió su paquete de solicitud y se notificará al ganador antes del 23 de septiembre de 2022.
-                </p>
-
-                <p>Si tiene alguna pregunta sobre el proceso de solicitud, envíe un correo electrónico a: <a href="mailto:GBaerAward@rabiesintheamericas.org">GBaerAward@rabiesintheamericas.org</a></p>
-
-            </div>
-
-            <button class="large-button" id="premioGMB-button">DESCARGAR SOLICITUD</button>
         </div>
+
+        <!--ACERCA DE-->
+        <div class="about-container">
+            <div class="about">
+                <div class="title1">
+                    ACERCA DE
+                    <hr class="title-line">
+                </div>
+                <p>
+                    ITA Inc. is an international not-for-profit, non-governmental
+                    organization, with a professional focus upon rabies. The Rabies in
+                    the Americas (RITA) conference is an international scientific
+                    meeting that has been held annually by RITA Inc. since 1990.
+                </p>
+
+                <button onclick="location.href='acercaDe.html'">VER MÁS</button>
+            </div>
+            <div class="about-image">
+                <img src="img/about.png" alt="ABOUT" />
+            </div>
+        </div>
+
+        <!--PROGRAMA-->
+        <div class="section-container">
+            <div class="programa">
+                <div class="section-title">
+                    <img class="title-texture" src="img/title-textures/title-texture2_2.png" alt="" />
+                    <span class="title1"> PROGRAMA </span>
+                    <img class="title-texture" src="img/title-textures/title-texture2_1.png" alt="" />
+                </div>
+                <hr class="title-line">
+                <div class="programa-fechas">
+                    <div class="fecha-1">
+                        <div class="fecha-dia">Domingo</div>
+                        <div class="fecha-num">24</div>
+                    </div>
+                    <div class="fecha-main">
+                        <div class="fecha-dia">Lunes</div>
+                        <div class="fecha-num">25</div>
+                    </div>
+                    <div class="fecha-3">
+                        <div class="fecha-dia">Martes</div>
+                        <div class="fecha-num">26</div>
+                    </div>
+                </div>
+
+                <div class="programa-container-index">
+                    <style>
+                        @import "styles/programa-styles.css";
+                    </style>
+                    
+                    <div class="programa-container">
+
+                    <hr id="programa-divisor-index">
+                        <div class="programa-container-columns">   
+                            
+                            <div class="programa-column-1">
+                                <div class="evento">
+                                    <p class="evento-title">Ceremonia de apertura</p>
+                                    <div class="event-hour">13:00 - 13:10 
+                                        <div class="evento-circle"></div>
+                                    </div>
+                                    <p class="evento-description">
+                                    </p>
+                                </div>
+                                
+                            </div>
+
+                            <div class="programa-column-2">
+                                <div class="evento">
+                                    <p class="evento-title">Presentaciones Orales - Rabia en animales salvajes <br>
+                                        Cristina Martínez
+                                    </p>
+                                    <div class="event-hour">13:00 - 13:10 
+                                        <div class="evento-circle"></div>
+                                    </div>
+                                    <p class="evento-description">
+                                    </p>
+                                    <p class="mini-eventos">
+                                        CO.01 - Vacuna para mapaches <br>
+                                        Gómez J, Pérez S, Medina A, Piccone, M. <br>
+                                        Autor Presentador: Carlos Matteoti <br>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <br><br><br>
+                        
+                        </div>
+                
+                
+                    </div>
+                
+
+                
+
+
+                </div>
+
+
+
+                <button onclick="location.href='programa.html'">Ver Programa</button>
+            </div>
+        </div>
+
+        <div class="congress-organization">
+
+        <!--ORGANIZADORES-->
+        <div class="section-container">
+            <div class="organizadores">
+                <div class="section-title">
+                    <img class="title-texture" src="img/title-textures/title-texture-3_1.png" alt="" />
+                    <span class="title1"> ORGANIZADORES </span>
+                    <img class="title-texture" src="img/title-textures/title-texture-3_2.png" alt="" />
+                </div>
+                <hr class="title-line">
+                <div class="section-title"><div class="title2" id="comite-internacional">COMITÉ INTERNACIONAL</div></div>
+                <hr class="title-line" id="organizadores-line2"/>
+    
+                <div class="organizadores-display" id="organizadores-display">
+                    <div class="organizador-card" id="org1">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_1.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Laura E. Robinson </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="organizador-card" id="org2">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_2.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Carlos Palacios </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="organizador-card" id="org3">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_3.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Subdirección de Zoonosis
+                                    <br>CENAPRECE Secretaría de Salud México, D.F., México</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="organizador-card" id="org4">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_4.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>University of Manitoba Health Sciences Centre Winnipeg, Manitoba, Canada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="organizador-card" id="org5">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_5.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>UNESP-Universidade Estadual Paulista Julio de Mesquita Filho. Faculdade de Medicina Veterinária e Zootecnia – Botucatu, SP, Brasil</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="organizador-card" id="org6">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_6.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Departamento de Zoonosis y Vectores Instituto de Salud del Estado de México México</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="organizador-card" id="org7">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_7.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Ontario Ministry of Health and Long-Term Care – Toronto, Ontario, Canada</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    
+                    <div class="organizador-card" id="mapaqro">
+                        <img src="img/organizadores/qro_map.png" alt="">
+                    </div>
+                    
+                    <div class="organizador-card" id="org8">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_8.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Canadian Food Inspection Agency Ottawa, Ontario, Canada</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="organizador-card" id="org9">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_9.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>USDA-APHIS Wildlife Services – Concord, New Hampshire, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="organizador-card" id="org10">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_10.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Natalia Casas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="organizador-card" id="org11">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_11.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Universidad Tecnológica de Tecámac Tecámac, Estado de México, México</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="organizador-card" id="org12">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_12.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>LYSSA LLC, CEO, Cumming, GA, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="organizador-card" id="org13">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_13.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Daniel Cisterna</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="organizador-card" id="org14">
+                        <div class="organizador-card-inner">
+                            <div class="organizador-card-front">
+                                <img src="img/organizadores/doll_14.png" alt="">
+                            </div>
+                            <div class="organizador-card-back">
+                                <p>Eduardo Pacheco de Caldas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--COMITÉ LOCAL-->
+        <div class="section-container">
+            <div class="comite-local">
+                <div class="section-title">
+                    <span class="title2" id="comite-local">COMITÉ LOCAL</span>
+                </div>
+                <hr class="title-line" id="organizadores-line2"/>
+
+                <div class="comite-local-names">
+                    <div class="comite-local-person">
+                        <div class="c-l-nombre">Dra. Isabel Bárcenas Reyes</div>
+                        <div class="c-l-puesto">
+                            PTC- Miembro del CA. Mejoramiento Animal Integral -FCN-UAQ
+                            <br />Presidenta del Comité local Organizador
+                        </div>
+                    </div>
+                    <div class="comite-local-person">
+                        <div class="c-l-nombre">Dra. Marina Durán Aguilar</div>
+                        <div class="c-l-puesto">
+                            PTC- PTC- Miembro del CA. Mejoramiento Animal Integral -FCN-UAQ
+                        </div>
+                    </div>
+                    <div class="comite-local-person">
+                        <div class="c-l-nombre">Dra. Verónica Gutiérrez Cedillo</div>
+                        <div class="c-l-puesto">
+                            Subdirección de Zoonosis/CENAPRECE Secretaría de Salud – México,
+                            D.F., México
+                        </div>
+                    </div>
+                    <div class="comite-local-person">
+                        <div class="c-l-nombre">Dr. Germinal J. Cantó Alarcón</div>
+                        <div class="c-l-puesto">
+                            PTC- PTC- Miembro del CA. Mejoramiento Animal Integral -FCN-UAQ
+                        </div>
+                    </div>
+                    <div class="comite-local-person">
+                        <div class="c-l-nombre">Dr. Feliciano Milián Suazo</div>
+                        <div class="c-l-puesto">
+                            PTC- PTC- Miembro del CA. Mejoramiento Animal Integral -FCN-UAQ
+                        </div>
+                    </div>
+                    <div class="comite-local-person">
+                        <div class="c-l-nombre">Dr. Héctor Raymundo Vera Ávila</div>
+                        <div class="c-l-puesto">
+                            PTC- PTC- Miembro del CA. Mejoramiento Animal Integral -FCN-UAQ
+                        </div>
+                    </div>
+                </div>
+
+                <div class="comite-local-logos">
+                    <img src="img/comite-local-logos/EscudoVeterinaria.png" alt="" />
+                    <img src="img/comite-local-logos/FCN.png" alt="" />
+                    <img src="img/comite-local-logos/LogoUAQ.png" alt="" />
+                    <img src="img/comite-local-logos/LogoPatronato.png" alt="" />
+                    <img src="img/comite-local-logos/CuerpoAcademicoCN.png" alt="" />
+                </div>
+            </div>
+        </div>
+        </div>
+
+
     </div>
+    
     <crear-footer></crear-footer>
+
+
 </body>
+
 </html>

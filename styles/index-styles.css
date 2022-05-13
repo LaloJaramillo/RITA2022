@@ -73,7 +73,7 @@
     height: 200px;
     border: 5px solid var(--rosa);
     margin: 10px;
-    font-family: Montserrat;
+    font-family: Futura Std;
     color: var(--rosa);
     font-weight: bold;
     font-size: 80px;
@@ -86,7 +86,7 @@
 
 .time-title {
     background-color: var(--rosa);
-    font-family: Montserrat;
+    font-family: Futura Std;
     color: white;
     font-size: 16px;
     top: 0px;
@@ -102,7 +102,7 @@
 }
 
 .simple {
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 30px;
     color: var(--gris);
     margin-top: 20px;
@@ -132,7 +132,7 @@
 }
 
 .about {
-    font-family: Montserrat;
+    font-family: Futura Std;
     padding: 40px;
     background-color: var(--verdeLight);
     color: white;
@@ -216,7 +216,7 @@
 .programa-fechas {
     display: flex;
     flex-direction: row;
-    font-family: Montserrat;
+    font-family: Futura Std;
 }
 
 .programa-fechas>div {
@@ -263,7 +263,7 @@
 
 .comite-local-names>div {
     text-align: center;
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 24px;
 }
 

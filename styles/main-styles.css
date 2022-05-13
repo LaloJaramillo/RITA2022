@@ -6,6 +6,16 @@
     --verdeLight: #22DED2;
 }
 
+@font-face {
+    font-family: 'Futura Std';
+    src: url('fonts/FuturaStd-Book.woff2') format('woff2'),
+        url('fonts/FuturaStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -26,17 +36,17 @@ body {
 }
 
 .title1 {
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 36px;
 }
 
 .title2 {
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 24px;
 }
 
 p {
-    font-family: Montserrat;
+    font-family: Futura Std;
     line-height: 1.6;
     letter-spacing: 1px;
 }
@@ -53,7 +63,7 @@ button {
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -72,7 +82,7 @@ header {
     display: flex;
     height: 160px;
     align-items: center;
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     color: var(--gris);
     background-color: white;
@@ -270,7 +280,7 @@ hr{
 footer {
     background-color: #325B6A;
     color: #f3f3f3;
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 12px;
     display: flex;
     flex-direction: column;
@@ -320,7 +330,7 @@ footer li {
     text-align: justify;
     text-justify: inter-word;
     font-weight: none;
-    font-family: Montserrat;
+    font-family: Futura Std;
 }
 
 .title4{

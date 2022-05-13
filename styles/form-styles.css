@@ -1,19 +1,19 @@
 .instruccion{
     width: 100%;
     text-align: center;
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 20px;
 }
 
 form > label{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     margin-bottom: 5px;
     width: 45%;
 }
 
 .section-form label{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     margin-bottom: 5px;
     width: 45%;
@@ -33,13 +33,13 @@ select, input[type="text"], input[type="tel"], input[type="email"], input[type="
     border-radius: 10px;
     border: none;
     padding: 4px 8px 4px 8px;
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     margin: 0 0 20px 0;
 }
 
 form > input[type="button"]{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     background-color: var(--verde);
     color: white;
@@ -49,7 +49,7 @@ form > input[type="button"]{
 }
 
 .section-form > input[type="button"]{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     background-color: var(--verde);
     color: white;
@@ -59,7 +59,7 @@ form > input[type="button"]{
 }
 
 form > input[type="button"]:hover{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     background-color: var(--rosa);
     color: white;
@@ -68,7 +68,7 @@ form > input[type="button"]:hover{
 }
 
 .section-form > input[type="button"]:hover{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     background-color: var(--rosa);
     color: white;
@@ -77,19 +77,19 @@ form > input[type="button"]:hover{
 }
 
 form  a{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     margin: 20px;
 }
 
 .section-form a{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 16px;
     margin: 20px;
 }
 
 .title-section-form{
-    font-family: Montserrat;
+    font-family: Futura Std;
     font-size: 24px;
     margin: 30px 0 10px 0;
     width: 100%;
