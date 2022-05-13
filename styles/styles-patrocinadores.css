@@ -1,3 +1,10 @@
+@font-face {
+    src: url('fonts/Futura Std Book.otf');
+    font-family: 'Futura Std';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 .patrocinadores{
     width: 100%;
     height: auto;
